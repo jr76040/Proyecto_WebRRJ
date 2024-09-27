@@ -1,0 +1,270 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: black;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #AF6E4D;
+    line-height: 30pt;
+}
+
+h3 {
+    line-height: 20pt;  
+}
+
+h4 {
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+h5 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #AF6E4D;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/cocina.png);
+    background-attachment: fixed;
+    background-position:0px; 
+}
+
+header {
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+}
+
+nav {
+    padding: 20px;
+    background-color:black;
+    display: flex;
+    justify-content: flex-start;
+}
+
+section {
+    margin: 20px;
+    width: 60%;
+    float: left;
+}
+
+article {
+    display: block;
+    margin: 20px;
+    padding: 15px;
+    line-height: 20pt;
+}
+
+p {
+    line-height: 20pt;
+    text-align: justify;
+}
+
+.subtittulo {
+    color: black
+}
+
+.dir {
+    font-size: 18px;
+    color:black;
+}
+
+.enlace {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    background: #AF6E4D;
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.enlace:hover {
+    background: black;
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.column{
+    background: #F9FFA4;
+    color: #0b0986;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    width: 23%;
+    box-sizing: border-box;
+}
+
+.column:hover{
+    color: #AF6E4D;
+}
+
+.contenedor{
+    margin: 0 auto;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.sombra {
+    box-shadow: 5px 5px 5px rgba(42, 40, 40, 0.7);
+    border-radius: 6px;
+}
+
+.border {
+    border-radius: 5px;
+}
+
+.left {
+    text-align: left;
+}
+
+.nav-enlace {
+    font-family: 'Times New Roman';
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid #15d29a;
+    padding: 10px 10px;
+    border-radius: 20px;
+    background:  #D2691E;
+    margin-right: 10px; 
+}
+
+.nav-enlace:hover {
+    font-family: 'Times New Roman';
+    color: white;
+    background:black;
+    border: 2px solid #15d29a;
+    cursor: pointer;  
+}
+
+.cintillo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-align: center;
+    color: #7B3F00;
+}
+
+.indice {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.indice:hover {
+    color: #0b0986;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.unir {
+    background: #88e8a8;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.columna {
+    float: left;
+    margin: 41px;
+    margin-left: 0px;
+    margin-right: 20px;
+    width: 34%;
+    font-size: 20px;
+}
+
+.columna blockquote {
+    border: 2px solid #15d29a;
+    border-radius:10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 72%;
+    font-size: 16px;
+}
+
+.pie {
+    background-color: black;
+    clear: both;
+    color:#EEEEEE;
+    font-size:13px;
+    text-align: center;
+    padding: 40px;
+    margin: 0px;
+}
+
+.img1 {
+    padding: 0;
+    margin: 0;
+    width: 280px;
+    height: 227px;
+    object-fit: cover;
+}
+
+.img_articulo {
+    height: 400px;
+    width: 600px;
+    object-fit: cover;
+    margin-left: 6px;
+    border-radius: 30px;
+}
+
+.imagentres {
+    height: 200px;
+    width: 280px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.imagenenlaces {
+    border-radius: 10px;
+    height: 70px;
+    width: 200px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.70);
+    object-fit: cover;
+}
+
+.damelis {
+    object-fit: cover;
+    border-radius: 20px;
+    width: 600px;
+
+}
+
+@media screen and (max-width:1000px){
+   .column {
+    width: 45%;
+    margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
